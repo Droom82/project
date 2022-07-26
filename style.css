@@ -1,17 +1,54 @@
-.upcard{
+body{
+  background-color: #C8D3F9;
+}
+.card{
   background-color: white;
-  width:400px;
+  width:350px;
+  min-height: 600px;
+  border-radius:  25px ;
 
 }
 
 .upcard
 {
-  background-color:  #6385F3;
-  width: 200px;
+  background-color:  #234CD4;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
 
 }
 .botcard{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: sans-serif;
+  justify-content: space-between;
+
+}
+.plancard{
+background-color: #F0F2FB;
+height: 100px;
+width: 300px;
+border-radius:  9px ;
+
+}
+.paybutton
+{
+  background-color: #F0F2FB;
+
+  text-align: center;
+  background-color: #234CD4;
+  margin: 4px 2px;
+  height: 50px;
+  width: 300px;
+  border-radius:  9px ;
+  border: none;
+  color: white;
+}
+.canbutton
+{
+  text-align: center;
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  border: none;
 }
