@@ -1,5 +1,17 @@
+.upcard{
+  background-color: white;
+  width:400px;
+
+}
 
 .upcard
 {
   background-color:  #6385F3;
+  width: 200px;
+
+}
+.botcard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
